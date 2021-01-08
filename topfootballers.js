@@ -6,15 +6,6 @@ const admin = require('firebase-admin');
 
 admin.initializeApp();
 
-// const imdbTop50Url = 'https://www.imdb.com/search/title/?groups=top_100&sort=user_rating,desc'
-
-// const imdbNext50Url = 'https://www.imdb.com/search/title/?groups=top_100&sort=user_rating,desc&start=51&ref_=adv_nxt'
-
-// const fetchHTML = async (url) => {
-//     const resp = await axios.get(url);
-//     return cheerio.load(resp.data)
-// }
-
 const config = {
     apiKey: "AIzaSyBEXsHvKsaI10rrdL9SX8qi1KpOR02wRqQ",
     authDomain: "top100movies-b3261.firebaseapp.com",
